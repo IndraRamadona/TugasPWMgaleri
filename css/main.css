@@ -37,14 +37,14 @@ img {
   max-width: 100%;
 }
 /* baris dibawah untuk mengatur transisi pada gambar yang ditampilkan pada layar */
-img#pro {
+img#fo {
   transition: width 0.5s;
   width: 50vw;
 }
 /* baris dibawah digunakan untuk mengatur tampilan pada layar kurang dari 4000px 
 den mengubah ukuran menjadi 90vm*/
 @media screen and (max-width: 400px) {
-  img#pro {
+  img#fo {
     max-width: 90vw;
     width: 90vw;
   }
